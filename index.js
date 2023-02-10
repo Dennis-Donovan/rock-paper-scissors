@@ -78,7 +78,7 @@ function playRound(playerSelection, computerSelection) { // compares player vs c
 let playerScore = 0;
 let computerScore = 0;
 
-function game(choice) { // function that runs the number of games 
+function game(choice) { // function that runs game based on player's choice
   let computerSelection = getComputerChoice(); // get computer's choice of rock (0), paper (1) or scissors (2)
   let playerSelection = choice;
   
